@@ -1,4 +1,4 @@
-const storeKey = "networkQuizSystem.v3";
+﻿const storeKey = "networkQuizSystem.v3";
 const accessPassword = "赵喆";
 const authSessionKey = "networkQuizSystem.authenticated";
 
@@ -744,18 +744,44 @@ function renderQuestionCard(questions) {
     render();
   });
 
-  const grid = document.createElement("div");
-  grid.className = "question-card-grid";
+  const groups = [];
+  const groupMap = new Map();
   questions.forEach((question, index) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = `question-chip ${questionCardStatus(question)} ${index === state.index ? "current" : ""}`;
-    button.textContent = index + 1;
-    button.title = `第 ${index + 1} 题`;
-    button.addEventListener("click", () => jumpByIndex(index));
-    grid.appendChild(button);
+    const type = question.type || "未分类";
+    if (!groupMap.has(type)) {
+      const group = { type, items: [] };
+      groupMap.set(type, group);
+      groups.push(group);
+    }
+    groupMap.get(type).items.push({ question, index });
   });
-  card.appendChild(grid);
+
+  const grouped = document.createElement("div");
+  grouped.className = "question-card-groups";
+  groups.forEach((group) => {
+    const section = document.createElement("section");
+    section.className = "question-card-group";
+
+    const head = document.createElement("div");
+    head.className = "question-card-group-title";
+    head.innerHTML = `<strong>${escapeHtml(group.type)}</strong><span>${group.items.length} 题</span>`;
+    section.appendChild(head);
+
+    const grid = document.createElement("div");
+    grid.className = "question-card-grid";
+    group.items.forEach(({ question, index }, groupIndex) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = `question-chip ${questionCardStatus(question)} ${index === state.index ? "current" : ""}`;
+      button.textContent = groupIndex;
+      button.title = `${group.type}第 ${groupIndex} 题 · 原第 ${index + 1} 题`;
+      button.addEventListener("click", () => jumpByIndex(index));
+      grid.appendChild(button);
+    });
+    section.appendChild(grid);
+    grouped.appendChild(section);
+  });
+  card.appendChild(grouped);
 }
 
 function chooseOption(question, label) {
@@ -1075,3 +1101,4 @@ boot().catch((error) => {
   document.querySelector("#questionStem").textContent = "题库加载失败，请确认 data/question-banks.js 是否存在。";
   console.error(error);
 });
+
