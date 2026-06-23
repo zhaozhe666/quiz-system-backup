@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>计算机网络刷题系统</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="auth-locked">
+  <section id="authGate" class="auth-gate" aria-label="访问验证">
+    <div class="auth-shell">
+      <div class="auth-intro">
+        <div class="brand-mark">CN</div>
+        <span>Private Question Bank</span>
+        <h1>计算机网络刷题系统</h1>
+        <p>题库、错题、收藏和考试记录仅在验证后显示。</p>
+        <div class="auth-metrics">
+          <div><strong>8</strong><em>题库</em></div>
+          <div><strong>本机</strong><em>记录保存</em></div>
+          <div><strong>私有</strong><em>访问入口</em></div>
+        </div>
+      </div>
+      <form id="authForm" class="auth-card">
+        <span class="auth-kicker">ACCESS CHECK</span>
+        <h2>输入访问密码</h2>
+        <p>支持字母、数字、符号和汉字。</p>
+        <label class="auth-field" for="authPassword">
+          <span>访问密码</span>
+          <div class="auth-input-wrap">
+            <input id="authPassword" class="masked" type="text" inputmode="text" autocomplete="off" spellcheck="false" placeholder="请输入密码" />
+            <button id="toggleAuthPassword" class="auth-toggle" type="button" aria-label="显示或隐藏密码">显示</button>
+          </div>
+        </label>
+        <button class="auth-submit" type="submit">进入系统</button>
+        <div id="authError" class="auth-error hidden">密码不正确，请重新输入。</div>
+        <small>提示：刷新同一个标签页不用重复输入，新开页面需要重新验证。</small>
+      </form>
+    </div>
+  </section>
+
+  <main class="app" aria-hidden="true">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">CN</div>
+        <div>
+          <h1>计算机网络刷题</h1>
+          <p id="bankSummary">正在加载题库...</p>
+        </div>
+      </div>
+
+      <section class="panel">
+        <div class="panel-title">
+          <h2>题库</h2>
+          <span id="selectedCount">0 个已选</span>
+        </div>
+        <div id="bankList" class="bank-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">
+          <h2>专项</h2>
+        </div>
+        <div class="scope-grid">
+          <button id="allOnly" class="scope-card active" data-filter="all">全部题目</button>
+        </div>
+        <div class="quick-grid">
+          <button id="wrongOnly" class="quick-card" data-filter="wrong">
+            <strong id="wrongCount">0</strong>
+            <span>错题</span>
+          </button>
+          <button id="favoriteOnly" class="quick-card" data-filter="favorite">
+            <strong id="favoriteCount">0</strong>
+            <span>收藏</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">
+          <h2 id="recordTitle">题目本</h2>
+          <button id="showAllRecords" class="mini-btn">全部</button>
+        </div>
+        <div id="recordList" class="record-list"></div>
+      </section>
+
+      <button id="clearProgress" class="ghost danger">清空本机记录</button>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar">
+        <div class="top-actions">
+          <div class="mode-tabs" role="tablist" aria-label="练习模式">
+            <button class="tab active" data-mode="practice">练习</button>
+            <button class="tab" data-mode="memorize">背题</button>
+            <button class="tab" data-mode="exam">考试</button>
+          </div>
+          <label class="exam-size-control">
+            <span>考试题数</span>
+            <div class="exam-size-row">
+              <input id="examSizeInput" type="number" min="0" step="1" placeholder="全部" />
+              <button id="applyExamSizeBtn" class="soft" type="button">确定</button>
+            </div>
+          </label>
+          <button id="shuffleBtn" class="soft shuffle-btn">随机题序</button>
+          <button id="shuffleOptionsBtn" class="soft shuffle-btn">随机选项内容</button>
+        </div>
+        <div class="stats">
+          <span id="progressText">0 / 0</span>
+          <span id="scoreText">错题 0 · 收藏 0</span>
+          <span class="version-badge">版本 20260623-plant-physiology</span>
+        </div>
+      </header>
+
+      <section class="question-shell">
+        <div class="question-layout">
+          <div class="question-main">
+            <div class="question-head">
+              <div>
+                <p id="questionMeta" class="meta">请选择题库</p>
+                <h2 id="questionStem">左侧选择一个题库开始刷题。</h2>
+              </div>
+              <button id="favoriteBtn" class="icon-btn" title="收藏题目" aria-label="收藏题目">☆</button>
+            </div>
+
+            <div id="options" class="options"></div>
+
+            <div id="fillWrap" class="fill-wrap hidden">
+              <textarea id="fillAnswer" placeholder="输入你的答案" autocomplete="off"></textarea>
+            </div>
+
+            <div id="feedback" class="feedback hidden"></div>
+
+            <div id="listView" class="list-view hidden"></div>
+          </div>
+
+          <aside id="questionCard" class="question-card hidden"></aside>
+        </div>
+
+        <footer class="actions">
+          <button id="prevBtn" class="ghost">上一题</button>
+          <button id="showAnswerBtn" class="soft">看答案</button>
+          <button id="submitBtn">提交</button>
+          <button id="nextBtn">下一题</button>
+        </footer>
+      </section>
+
+      <section id="examResult" class="result hidden"></section>
+    </section>
+  </main>
+
+  <script src="data/question-banks.js?v=20260623-plant-physiology"></script>
+  <script src="app.js?v=20260623-plant-physiology"></script>
+</body>
+</html>

@@ -1,0 +1,6353 @@
+{
+  "id": "编译原理客观题",
+  "title": "编译原理客观题",
+  "fileName": "编译原理题库v2.2.pdf",
+  "questionCount": 248,
+  "answeredCount": 248,
+  "types": [
+    "判断题",
+    "单项选择题",
+    "填空题"
+  ],
+  "questions": [
+    {
+      "id": "编译原理客观题-1",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 1,
+      "originalNumber": 1,
+      "type": "填空题",
+      "score": 0,
+      "stem": "编译系统的编译过程由：词法分析、____、语义分析、中间代码生成、代码优化和目标代码 6 个阶段组成。",
+      "images": [],
+      "options": [],
+      "answer": "语法分析",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-2",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 2,
+      "originalNumber": 2,
+      "type": "填空题",
+      "score": 0,
+      "stem": "编译系统除了词法分析程序等 6 个分析阶段，还包括____和出错处理程序 2 个辅助程序。",
+      "images": [],
+      "options": [],
+      "answer": "表格管理",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-3",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 3,
+      "originalNumber": 3,
+      "type": "填空题",
+      "score": 0,
+      "stem": "编译程序是翻译高级语言，将之转化成____或机器语言的程序；",
+      "images": [],
+      "options": [],
+      "answer": "汇编语言",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-4",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 4,
+      "originalNumber": 4,
+      "type": "填空题",
+      "score": 0,
+      "stem": "编译程序是针对____程序进行翻译。",
+      "images": [],
+      "options": [],
+      "answer": "高级语言",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-5",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 5,
+      "originalNumber": 5,
+      "type": "填空题",
+      "score": 0,
+      "stem": "编译过程中，词法分析阶段的任务是：____；",
+      "images": [],
+      "options": [],
+      "answer": "识别单词(或识别单词和生成 token)",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-6",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 6,
+      "originalNumber": 6,
+      "type": "填空题",
+      "score": 0,
+      "stem": "语法分析阶段是将____的输出结果作为语法分析阶段的输入；",
+      "images": [],
+      "options": [],
+      "answer": "词法分析",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-7",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 7,
+      "originalNumber": 7,
+      "type": "填空题",
+      "score": 0,
+      "stem": "编译系统的词法分析子系统(图如下)，请填写图中 1、____、2、____。",
+      "images": [
+        "assets/questions/compiler-objective-fill-7.png"
+      ],
+      "options": [],
+      "answer": "字符、单词",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-8",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 8,
+      "originalNumber": 8,
+      "type": "填空题",
+      "score": 0,
+      "stem": "设有一集合A={a,b}，则A2= ____。",
+      "images": [],
+      "options": [],
+      "answer": "{aa，ab，ba，bb}",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-9",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 9,
+      "originalNumber": 9,
+      "type": "填空题",
+      "score": 0,
+      "stem": "设有一集合 A={x,y}，则 A²=____。",
+      "images": [],
+      "options": [],
+      "answer": "{xx，xy，yx，yy}",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-10",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 10,
+      "originalNumber": 10,
+      "type": "填空题",
+      "score": 0,
+      "stem": "令 A={a，b，ε}是一个符号串，则 A²=____。",
+      "images": [],
+      "options": [],
+      "answer": "{ε，a，b，aa，ab，ba，bb}",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-11",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 11,
+      "originalNumber": 11,
+      "type": "填空题",
+      "score": 0,
+      "stem": "设A为一个集合，则A0= ____。",
+      "images": [],
+      "options": [],
+      "answer": "{ε}",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-12",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 12,
+      "originalNumber": 12,
+      "type": "填空题",
+      "score": 0,
+      "stem": "设A为一个集合，则A+= ____。",
+      "images": [],
+      "options": [],
+      "answer": "A1∪A2∪A3∪A4......",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-13",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 13,
+      "originalNumber": 13,
+      "type": "填空题",
+      "score": 0,
+      "stem": "设有一集合x={a}，则x*=____。",
+      "images": [],
+      "options": [],
+      "answer": "{ε,a,aa,aaa,aaaa......}",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-14",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 14,
+      "originalNumber": 14,
+      "type": "填空题",
+      "score": 0,
+      "stem": "设a是一个符号串，则a0=____。",
+      "images": [],
+      "options": [],
+      "answer": "ε",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-15",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 15,
+      "originalNumber": 15,
+      "type": "填空题",
+      "score": 0,
+      "stem": "令 x=ab，y=ε，z=c，则 xyz²=____。",
+      "images": [],
+      "options": [],
+      "answer": "abcc",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-16",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 16,
+      "originalNumber": 16,
+      "type": "填空题",
+      "score": 0,
+      "stem": "令 a=1，b=ε，c=23，则 a²bc=____。",
+      "images": [],
+      "options": [],
+      "answer": "1123",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-17",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 17,
+      "originalNumber": 17,
+      "type": "填空题",
+      "score": 0,
+      "stem": "设A是符号串的集合，则A*=____∪A+。",
+      "images": [],
+      "options": [],
+      "answer": "{ε}",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-18",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 18,
+      "originalNumber": 18,
+      "type": "填空题",
+      "score": 0,
+      "stem": "设有一字符串 a，则 a*=____。",
+      "images": [],
+      "options": [],
+      "answer": "{ε,a,aa,aaa,aaaa......}",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-19",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 19,
+      "originalNumber": 19,
+      "type": "填空题",
+      "score": 0,
+      "stem": "正规式里，两个符号紧挨着顺序书写(两个符号不一定相同)，这种运算称为____；",
+      "images": [],
+      "options": [],
+      "answer": "连接",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-20",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 20,
+      "originalNumber": 20,
+      "type": "填空题",
+      "score": 0,
+      "stem": "一个句型最左边的____称为该句型的句柄。",
+      "images": [],
+      "options": [],
+      "answer": "直接短语",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-21",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 21,
+      "originalNumber": 21,
+      "type": "填空题",
+      "score": 0,
+      "stem": "如果每次推导都是针对一个句型最左边的____称为该句型的句柄。",
+      "images": [],
+      "options": [],
+      "answer": "直接短语",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-22",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 22,
+      "originalNumber": 22,
+      "type": "填空题",
+      "score": 0,
+      "stem": "文法是规则的非空有穷集合，通常表示成四元组G=____。",
+      "images": [],
+      "options": [],
+      "answer": "{VN，VT，P，S}/{非终结符集合，终结符集合，规则集，开始符}",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-23",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 23,
+      "originalNumber": 23,
+      "type": "填空题",
+      "score": 0,
+      "stem": "文法是用来描述语言的语法结构，它由如下四个部分组成：文法终结符集合、____、 文法规则集合和文法开始符号。    ",
+      "images": [],
+      "options": [],
+      "answer": "文法非终结符集合",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-24",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 24,
+      "originalNumber": 24,
+      "type": "填空题",
+      "score": 0,
+      "stem": "如果在推导过程中的任何一步 α⇒β，都是对 α 中最左非终结符进行替换，则称这种推导为____。",
+      "images": [],
+      "options": [],
+      "answer": "最左推导",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-25",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 25,
+      "originalNumber": 25,
+      "type": "填空题",
+      "score": 0,
+      "stem": "请写出右面 DFA 的正规(则)式____。",
+      "images": [
+        "assets/questions/compiler-objective-fill-25.png"
+      ],
+      "options": [],
+      "answer": "(a|b)*ab",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-26",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 26,
+      "originalNumber": 26,
+      "type": "填空题",
+      "score": 0,
+      "stem": "请写出右面 DFA 的正规(则)式____。",
+      "images": [
+        "assets/questions/compiler-objective-fill-26.png"
+      ],
+      "options": [],
+      "answer": "(a|ba)*",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-27",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 27,
+      "originalNumber": 27,
+      "type": "填空题",
+      "score": 0,
+      "stem": "右图的确定自动机 DFA，其正规(则)式为____。",
+      "images": [
+        "assets/questions/compiler-objective-fill-27.png"
+      ],
+      "options": [],
+      "answer": "(10*1)*",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-28",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 28,
+      "originalNumber": 28,
+      "type": "填空题",
+      "score": 0,
+      "stem": "前面 1 个 a 开头，后面跟随 0 个或多个 b，利用正规(则)表达式可表示为____。",
+      "images": [],
+      "options": [],
+      "answer": "ab*",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-29",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 29,
+      "originalNumber": 29,
+      "type": "填空题",
+      "score": 0,
+      "stem": "前面 1 个或多个a开头，后面跟随 2 个b，利用正规(则)表达式可表示为____；",
+      "images": [],
+      "options": [],
+      "answer": "aa*bb/a+bb",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-30",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 30,
+      "originalNumber": 30,
+      "type": "填空题",
+      "score": 0,
+      "stem": "0 个或多个b开头，后面跟随 2 个a，利用正规(则)表达式可表示为____；",
+      "images": [],
+      "options": [],
+      "answer": "b*aa",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-31",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 31,
+      "originalNumber": 31,
+      "type": "填空题",
+      "score": 0,
+      "stem": "3 个a开头，后面跟随 0 个或多个b，利用正规(则)表达式可表示为____；",
+      "images": [],
+      "options": [],
+      "answer": "aaab*",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-32",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 32,
+      "originalNumber": 32,
+      "type": "填空题",
+      "score": 0,
+      "stem": "2 个a开头，后面跟随 0 个或多个a或b，利用正规(则)表达式可表示为____；",
+      "images": [],
+      "options": [],
+      "answer": "aa(a|b)*",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-33",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 33,
+      "originalNumber": 33,
+      "type": "填空题",
+      "score": 0,
+      "stem": "请写出文法G[A]：A→bA|a的正规(则)式____。",
+      "images": [],
+      "options": [],
+      "answer": "b*a",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-34",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 34,
+      "originalNumber": 34,
+      "type": "填空题",
+      "score": 0,
+      "stem": "文法 G[A]：A→Aa|b 所代表的正规(则)式为____。",
+      "images": [],
+      "options": [],
+      "answer": "ba*",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-35",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 35,
+      "originalNumber": 35,
+      "type": "填空题",
+      "score": 0,
+      "stem": "文法 G[A]：A→aA|b 所代表的正规(则)式为____。",
+      "images": [],
+      "options": [],
+      "answer": "a*b",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-36",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 36,
+      "originalNumber": 36,
+      "type": "填空题",
+      "score": 0,
+      "stem": "请写出正则式 ab* 的相应文法：____。",
+      "images": [],
+      "options": [],
+      "answer": "A→Ab|a / A→aB，B→bB|ε",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-37",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 37,
+      "originalNumber": 37,
+      "type": "填空题",
+      "score": 0,
+      "stem": "正规式里的运算符“*”称为____。",
+      "images": [],
+      "options": [],
+      "answer": "闭包/Kleene 闭包",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-38",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 38,
+      "originalNumber": 38,
+      "type": "填空题",
+      "score": 0,
+      "stem": "正规式里的运算符“|”读作____。",
+      "images": [],
+      "options": [],
+      "answer": "或运算",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-39",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 39,
+      "originalNumber": 39,
+      "type": "填空题",
+      "score": 0,
+      "stem": "文法是规则的非空有穷集合，通常表示成四元组G=____。",
+      "images": [],
+      "options": [],
+      "answer": "{VN，VT，P，S}/{非终结符集合，终结符集合，规则集，开始符}",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-40",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 40,
+      "originalNumber": 40,
+      "type": "填空题",
+      "score": 0,
+      "stem": "已知文法 G[E]：\nS→XY\nX→X11|1\nY→(Y)|2Y3|4\n该文法终结符集合 VT=____，文法非终结符集合 VN=____，该文法在乔姆斯基(chomsky)文法分类中属于____。",
+      "images": [],
+      "options": [],
+      "answer": "{1，2，3，4，(，)}；{S，X，Y}；2型文法/上下文无关文法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-41",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 41,
+      "originalNumber": 41,
+      "type": "填空题",
+      "score": 0,
+      "stem": "已知文法 G[E]：\nE→AB\nA→aAa|a\nB→(B)|bBc|d\n该文法终结符集合 VT=____，文法非终结符集合 VN=____，该文法在乔姆斯基(chomsky)文法分类中属于____。",
+      "images": [],
+      "options": [],
+      "answer": "{(，)，a，b，c，d}；{E，A，B}；2型文法/上下文无关文法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-42",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 42,
+      "originalNumber": 42,
+      "type": "填空题",
+      "score": 0,
+      "stem": "已知文法 G[E]：\nE→1A|2B\nA→0A|ε\nB→1B|2\n该文法终结符集合 VT=____，文法非终结符集合 VN=____，该文法在乔姆斯基(chomsky)文法分类中属于____。",
+      "images": [],
+      "options": [],
+      "answer": "{0，1，2}；{E，A，B}；3型文法/正规文法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-43",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 43,
+      "originalNumber": 43,
+      "type": "填空题",
+      "score": 0,
+      "stem": "已知文法 G[S]：\nS→XY\nX→0X1|a\nY→(Y)|[Y]|ε\n该文法终结符集合 VT=____，文法非终结符集合 VN=____，该文法在乔姆斯基(chomsky)文法分类中属于____。",
+      "images": [],
+      "options": [],
+      "answer": "{0，1，a，(，)，[，]}；{S，X，Y}；2型文法/上下文无关文法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-44",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 44,
+      "originalNumber": 44,
+      "type": "填空题",
+      "score": 0,
+      "stem": "已知文法 G[E]：\nE→aA|bB\nA→aA|ε\nB→bB|c\n该文法终结符集合 VT=____，文法非终结符集合 VN=____，该文法在乔姆斯基(chomsky)文法分类中属于____。",
+      "images": [],
+      "options": [],
+      "answer": "{a，b，c}；{E，A，B}；3型文法/正规文法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-45",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 45,
+      "originalNumber": 45,
+      "type": "填空题",
+      "score": 0,
+      "stem": "已知文法 G[E]：\nE→E+T|T\nT→T*F|F\nF→(E)|a\n该文法终结符集合 VT=____，文法非终结符集合 VN=____，该文法在乔姆斯基(chomsky)文法分类中属于____。",
+      "images": [],
+      "options": [],
+      "answer": "{+，*，(，)，a}；{E，T，F}；2型文法/上下文无关文法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-46",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 46,
+      "originalNumber": 46,
+      "type": "填空题",
+      "score": 0,
+      "stem": "已知文法 G[E]：\nE→AB\nA→aAa|a\nB→(B)|bBc|d\n该文法终结符集合 VT=____，文法非终结符集合 VN=____，该文法在乔姆斯基(chomsky)文法分类中属于____。",
+      "images": [],
+      "options": [],
+      "answer": "{(，)，a，b，c，d}；{E，A，B}；2型文法/上下文无关文法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-47",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 47,
+      "originalNumber": 47,
+      "type": "填空题",
+      "score": 0,
+      "stem": "已知文法 G[E]：\nS→AB\n0A→0A11|01\nB→(B)|2B3|4\n该文法终结符集合 VT=____，文法非终结符集合 VN=____，该文法在乔姆斯基(chomsky)文法分类中属于____。",
+      "images": [],
+      "options": [],
+      "answer": "{0，1，2，3，4，(，)}；{S，A，B}；1型文法/上下文有关文法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-48",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 48,
+      "originalNumber": 48,
+      "type": "填空题",
+      "score": 0,
+      "stem": "已知文法 G[E]：\nS→Ab\nbAb→bA11b|b1b\naAb→aA11b|a1b\naB→a(B)|aB3|a\n该文法终结符集合 VT=____，文法非终结符集合 VN=____，该文法在乔姆斯基(chomsky)文法分类中属于____。",
+      "images": [],
+      "options": [],
+      "answer": "{1，3，a，b，(，)}；{S，A，B}；1型文法/上下文有关文法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-49",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 49,
+      "originalNumber": 49,
+      "type": "填空题",
+      "score": 0,
+      "stem": "LL(1)文法从文法开始符出发企图推导出与输入串完全匹配的句子，这称为____分析法。",
+      "images": [],
+      "options": [],
+      "answer": "自上而下",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-50",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 50,
+      "originalNumber": 50,
+      "type": "填空题",
+      "score": 0,
+      "stem": "LL(1)文法的 FIRST 集实际上是寻找以指定非终结符开始，可推导出所有的首个____或 ε 的集合。",
+      "images": [],
+      "options": [],
+      "answer": "终结符",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-51",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 51,
+      "originalNumber": 51,
+      "type": "填空题",
+      "score": 0,
+      "stem": "LL(1)文法的 FOLLOW 集本质上是寻找指定非终结符之后出现的____或 # 的集合。",
+      "images": [],
+      "options": [],
+      "answer": "终结符",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-52",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 52,
+      "originalNumber": 52,
+      "type": "填空题",
+      "score": 0,
+      "stem": "SLR(1)文法是为了解决 LR(0)文法存在的____和____冲突。",
+      "images": [],
+      "options": [],
+      "answer": "移入-规约；归约-归约",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-53",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 53,
+      "originalNumber": 53,
+      "type": "填空题",
+      "score": 0,
+      "stem": "常用的中间代码有三元式、四元式和____表达式。",
+      "images": [],
+      "options": [],
+      "answer": "逆波兰",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-54",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 54,
+      "originalNumber": 54,
+      "type": "填空题",
+      "score": 0,
+      "stem": "____是编译技术中用来说明程序设计语言的____的工具。",
+      "images": [],
+      "options": [],
+      "answer": "属性文法/属性翻译文法；语义",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-55",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 55,
+      "originalNumber": 55,
+      "type": "填空题",
+      "score": 0,
+      "stem": "nextq是编译器针对语句生成中间代码时，标注下一条语句____的起始地址。",
+      "images": [],
+      "options": [],
+      "answer": "中间代码",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-56",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 56,
+      "originalNumber": 56,
+      "type": "填空题",
+      "score": 0,
+      "stem": "Backpatch是编译器在带优化的布尔表达式翻译时，用来____前面中间代码的跳转地址。",
+      "images": [],
+      "options": [],
+      "answer": "回填",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-57",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 57,
+      "originalNumber": 57,
+      "type": "填空题",
+      "score": 0,
+      "stem": "表达式(a-b)/c的逆波兰表达式是____；",
+      "images": [],
+      "options": [],
+      "answer": "ab-c/",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-58",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 58,
+      "originalNumber": 58,
+      "type": "填空题",
+      "score": 0,
+      "stem": "表达式a+b*(c-d)的逆波兰表达式是____；",
+      "images": [],
+      "options": [],
+      "answer": "abcd-*+",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-59",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 59,
+      "originalNumber": 59,
+      "type": "填空题",
+      "score": 0,
+      "stem": "表达式(a+b)/(c-d)的逆波兰表达式是____；",
+      "images": [],
+      "options": [],
+      "answer": "ab+cd-/",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-60",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 60,
+      "originalNumber": 60,
+      "type": "填空题",
+      "score": 0,
+      "stem": "根据优化对象所涉及的程序范围，分为____、____和全局优化。",
+      "images": [],
+      "options": [],
+      "answer": "局部优化；循环优化",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-61",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 61,
+      "originalNumber": 61,
+      "type": "填空题",
+      "score": 0,
+      "stem": "根据代码优化是否涉及具体的计算机来划分，代码优化分为两大类：一类与机器有关的优化，在____上进行；另一类与机器无关的优化，在____上进行。",
+      "images": [],
+      "options": [],
+      "answer": "目标 代码、中间代码",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-62",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 62,
+      "originalNumber": 62,
+      "type": "填空题",
+      "score": 0,
+      "stem": "中间代码优化技术有：____、____、强度削弱、变换循环控制条件、复写传播、删除无用赋值。",
+      "images": [],
+      "options": [],
+      "answer": "删除公共子表达式；代码外提",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-63",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 63,
+      "originalNumber": 63,
+      "type": "填空题",
+      "score": 0,
+      "stem": "代码优化按照工作阶段分，分为____和目标代码优化。",
+      "images": [],
+      "options": [],
+      "answer": "中间代码优化",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-64",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 64,
+      "originalNumber": 64,
+      "type": "填空题",
+      "score": 0,
+      "stem": "有时因为优化步骤只针对中间代码或目标代码的相邻区域内，对该区域内的代码进行优化，这种技术又称为____；",
+      "images": [],
+      "options": [],
+      "answer": "窥孔优化",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-65",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 65,
+      "originalNumber": 65,
+      "type": "填空题",
+      "score": 0,
+      "stem": "符号表是编译程序中主要的数据结构之一，它主要用来存放程序语言中出现的有关 ____的信息。",
+      "images": [],
+      "options": [],
+      "answer": "标识符",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-66",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 66,
+      "originalNumber": 66,
+      "type": "填空题",
+      "score": 0,
+      "stem": "符号表的每项通常由 2 部分组成，分别是____和____；",
+      "images": [],
+      "options": [],
+      "answer": "名字栏，信息栏",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-67",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 67,
+      "originalNumber": 67,
+      "type": "填空题",
+      "score": 0,
+      "stem": "符号表的组织方式可分为____方式和____方式；",
+      "images": [],
+      "options": [],
+      "answer": "直接，间接",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-68",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 68,
+      "originalNumber": 68,
+      "type": "填空题",
+      "score": 0,
+      "stem": "整个符号表包含以下几个链表：____链、函数链、____链和函数局部变量链；",
+      "images": [],
+      "options": [],
+      "answer": "标识符、 函数参数",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-69",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 69,
+      "originalNumber": 69,
+      "type": "填空题",
+      "score": 0,
+      "stem": "在符号表中搜索变量或函数时，为了达到快速遍历的目的，通常采用____进行快速定位。",
+      "images": [],
+      "options": [],
+      "answer": "散列搜索/哈希搜索",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-70",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 70,
+      "originalNumber": 70,
+      "type": "填空题",
+      "score": 0,
+      "stem": "符号表的查找方式有：____、两分查找和____；",
+      "images": [],
+      "options": [],
+      "answer": "线性表；散列法/哈希法",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-71",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 71,
+      "originalNumber": 71,
+      "type": "填空题",
+      "score": 0,
+      "stem": "数字表达式 a+b*c 如果经过语义分析生成四元式，至少分解成____条四元式进行计算。",
+      "images": [],
+      "options": [],
+      "answer": "2",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-72",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 72,
+      "originalNumber": 72,
+      "type": "填空题",
+      "score": 0,
+      "stem": "程序设计语言的变量存储空间有：完全____环境、基于____存储环境和基于堆的存储环境。",
+      "images": [],
+      "options": [],
+      "answer": "静态；栈式/栈",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-73",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 73,
+      "originalNumber": 73,
+      "type": "填空题",
+      "score": 0,
+      "stem": "编程语言中允许的数据项存储是____方式或动态方式的。",
+      "images": [],
+      "options": [],
+      "answer": "静态",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-74",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 74,
+      "originalNumber": 74,
+      "type": "填空题",
+      "score": 0,
+      "stem": "编程语言存储管理的复杂程度在于：____的多少、语言中允许的数据项是静态或动态方式、程序决定名字的____的规则和结构。",
+      "images": [],
+      "options": [],
+      "answer": "数据项；作用域",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-75",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 75,
+      "originalNumber": 75,
+      "type": "填空题",
+      "score": 0,
+      "stem": "运行时的存储组织与管理：静态存储分配、____式存储分配和堆式存储分配。",
+      "images": [],
+      "options": [],
+      "answer": "栈式",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-76",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 76,
+      "originalNumber": 76,
+      "type": "填空题",
+      "score": 0,
+      "stem": "高级语言编译后的存储空间通常划分为：____区、静态数据区、____和堆区。",
+      "images": [],
+      "options": [],
+      "answer": "代码；栈区",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-77",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 77,
+      "originalNumber": 77,
+      "type": "填空题",
+      "score": 0,
+      "stem": "高级语言在不同函数内的同名局部变量不冲突，作用域仅限于定义的函数内部，其实现机制是基于所处函数在堆栈上的____。",
+      "images": [],
+      "options": [],
+      "answer": "活动记录/栈帧",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-78",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 78,
+      "originalNumber": 78,
+      "type": "填空题",
+      "score": 0,
+      "stem": "C 语言的动态内存分配 malloc 和 free，存储于堆结构上，其实现原理是在____层次上，使用数据结构的____。",
+      "images": [],
+      "options": [],
+      "answer": "操作系统；链表/空闲链表",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-79",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 79,
+      "originalNumber": 79,
+      "type": "填空题",
+      "score": 0,
+      "stem": "操作系统中，堆栈的特点是____式的动态存储方式。",
+      "images": [],
+      "options": [],
+      "answer": "后进先出/栈",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-80",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 80,
+      "originalNumber": 80,
+      "type": "填空题",
+      "score": 0,
+      "stem": "程序决定名字的作用域的规则和结构：____结构、过程定义不嵌套和____结构。",
+      "images": [],
+      "options": [],
+      "answer": "段；分程序",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-81",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 81,
+      "originalNumber": 81,
+      "type": "填空题",
+      "score": 0,
+      "stem": "C 语言的局部变量是存储于____上。",
+      "images": [],
+      "options": [],
+      "answer": "栈",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-82",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 82,
+      "originalNumber": 82,
+      "type": "填空题",
+      "score": 0,
+      "stem": "C 编译器在编译时，将局部变量分配于____之上进行内存动态分配。",
+      "images": [],
+      "options": [],
+      "answer": "堆栈/栈",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-83",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 83,
+      "originalNumber": 83,
+      "type": "填空题",
+      "score": 0,
+      "stem": "C 编译器在编译时，函数的参数存储于____之上。",
+      "images": [],
+      "options": [],
+      "answer": "栈/活动记录",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-84",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 84,
+      "originalNumber": 84,
+      "type": "填空题",
+      "score": 0,
+      "stem": "C 编译器在编译时，函数的返回值存储于____之上。",
+      "images": [],
+      "options": [],
+      "answer": "寄存器/栈",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-85",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 85,
+      "originalNumber": 85,
+      "type": "填空题",
+      "score": 0,
+      "stem": "目标代码生成通常在语法分析后，或者优化后的____上进行。",
+      "images": [],
+      "options": [],
+      "answer": "中间代码",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-86",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 86,
+      "originalNumber": 86,
+      "type": "填空题",
+      "score": 0,
+      "stem": "代码生成器的输入包括：中间代码和____的信息。",
+      "images": [],
+      "options": [],
+      "answer": "符号表",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-87",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 87,
+      "originalNumber": 87,
+      "type": "填空题",
+      "score": 0,
+      "stem": "要设计一个好的代码生成器，必须熟悉目标机器和它的____系统。",
+      "images": [],
+      "options": [],
+      "answer": "指令",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-88",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 88,
+      "originalNumber": 88,
+      "type": "填空题",
+      "score": 0,
+      "stem": "汇编语言程序，必须通过汇编程序____成可执行的机器语言代码。",
+      "images": [],
+      "options": [],
+      "answer": "汇编/翻译",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-89",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 89,
+      "originalNumber": 89,
+      "type": "填空题",
+      "score": 0,
+      "stem": "常用的词法分析程序的自动构造工具是____。",
+      "images": [],
+      "options": [],
+      "answer": "flex",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-90",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 90,
+      "originalNumber": 90,
+      "type": "填空题",
+      "score": 0,
+      "stem": "编译原理实验课上，我们用的词法分析器的自动生成及编译工具是____。",
+      "images": [],
+      "options": [],
+      "answer": "flex",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-91",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 91,
+      "originalNumber": 91,
+      "type": "填空题",
+      "score": 0,
+      "stem": "常用的词法分析程序的自动构造工具是____。",
+      "images": [],
+      "options": [],
+      "answer": "flex",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-92",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 92,
+      "originalNumber": 92,
+      "type": "填空题",
+      "score": 0,
+      "stem": "在实验课上，我们常用的语法分析器的自动生成及编译工具是____。",
+      "images": [],
+      "options": [],
+      "answer": "bison/yacc",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-93",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 93,
+      "originalNumber": 93,
+      "type": "填空题",
+      "score": 0,
+      "stem": "利用 flex 词法分析器的正则式规则，书写十进制数的正则式识别字符串：[____]+。",
+      "images": [],
+      "options": [],
+      "answer": "0-9/[0-9]",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-94",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 94,
+      "originalNumber": 94,
+      "type": "填空题",
+      "score": 0,
+      "stem": "词法编译器 Flex 用来识别正则式的，在 main 中被调用的词法分析器主函数是____。",
+      "images": [],
+      "options": [],
+      "answer": "yylex",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-95",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 95,
+      "originalNumber": 95,
+      "type": "填空题",
+      "score": 0,
+      "stem": "Flex 功能主要是识别____，并将识别结果作为____的输入。",
+      "images": [],
+      "options": [],
+      "answer": "单词；bison(或 yacc)",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-96",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 96,
+      "originalNumber": 96,
+      "type": "填空题",
+      "score": 0,
+      "stem": "利用 flex 词法分析器的正则式规则，书写十进制数的正则式识别字符串：[____]+。",
+      "images": [],
+      "options": [],
+      "answer": "0-9/[0-9]",
+      "answerImages": [],
+      "explanation": "",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-97",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 97,
+      "originalNumber": 1,
+      "type": "判断题",
+      "score": 0,
+      "stem": "编译程序是一种翻译程序，它将高级语言所写的源程序翻译成等价的机器语言或汇编语言的目标语言。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "编译程序把高级语言源程序翻译成等价目标语言程序，属于翻译程序。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-98",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 98,
+      "originalNumber": 2,
+      "type": "判断题",
+      "score": 0,
+      "stem": "编译程序与具体的机器有关。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "编译程序生成目标代码时要面向具体机器或目标平台。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-99",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 99,
+      "originalNumber": 3,
+      "type": "判断题",
+      "score": 0,
+      "stem": "编译程序的种类与具体语言相关。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "不同源语言通常需要相应的词法、语法和语义处理规则。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-100",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 100,
+      "originalNumber": 4,
+      "type": "判断题",
+      "score": 0,
+      "stem": "编译程序生成的目标程序一定是可执行的程序。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "目标程序可能是汇编程序或可重定位目标模块，不一定能立即执行。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-101",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 101,
+      "originalNumber": 5,
+      "type": "判断题",
+      "score": 0,
+      "stem": "采用自编译方式生成编译程序的思想：先用目标机的汇编语言或机器语言对源语言的核心部分构造一个最小化的编译程序(可用手工实现)，再以它为工具构造一个能编译更多语言成分的较大编译程序，如此扩展下去，不断滚雪球，最后生成预期的整个源语言的编译器。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "自编译先实现最小编译器，再逐步扩展能力，常被形象称为滚雪球式构造。（原题标注：T）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-102",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 102,
+      "originalNumber": 6,
+      "type": "判断题",
+      "score": 0,
+      "stem": "设A为一个集合，则A*=A1∪A2∪A3∪A4······。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "A* 应包含 A0，即空串集合 {ε}，不能从 A1 开始。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-103",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 103,
+      "originalNumber": 7,
+      "type": "判断题",
+      "score": 0,
+      "stem": "设A为一个集合，则A*=A0∪A1∪A2∪A3······。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "A* 是 A0、A1、A2 等所有次幂的并集。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-104",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 104,
+      "originalNumber": 8,
+      "type": "判断题",
+      "score": 0,
+      "stem": "空符号串的集合{ε}={ }=Ф。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "{ε} 含有空串这个元素，不是空集 Φ。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-105",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 105,
+      "originalNumber": 9,
+      "type": "判断题",
+      "score": 0,
+      "stem": "正规(则)式的运算符“*”读作“正闭包”； （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "运算符 * 是闭包；正闭包通常用 + 表示。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-106",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 106,
+      "originalNumber": 10,
+      "type": "判断题",
+      "score": 0,
+      "stem": "正规(则)式的运算符“|”读作“闭包”； （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "运算符 | 表示或运算，不是闭包。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-107",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 107,
+      "originalNumber": 11,
+      "type": "判断题",
+      "score": 0,
+      "stem": "若A是符号串的集合，则A0=ε。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "A0 应为 {ε}，不是单独的 ε。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-108",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 108,
+      "originalNumber": 12,
+      "type": "判断题",
+      "score": 0,
+      "stem": "两个符号串a和b的连接ab=ba。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "符号串连接一般不满足交换律，ab 通常不等于 ba。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-109",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 109,
+      "originalNumber": 13,
+      "type": "判断题",
+      "score": 0,
+      "stem": "两个符号串 0 和 1 的连接 01=10。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "01 与 10 是不同符号串，连接顺序会影响结果。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-110",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 110,
+      "originalNumber": 14,
+      "type": "判断题",
+      "score": 0,
+      "stem": "字母表是元素的非空无穷集合。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "字母表通常定义为非空有穷符号集合。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-111",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 111,
+      "originalNumber": 15,
+      "type": "判断题",
+      "score": 0,
+      "stem": "设A是符号串集合，则A0={ }。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "A0 是 {ε}，不是空集。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-112",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 112,
+      "originalNumber": 16,
+      "type": "判断题",
+      "score": 0,
+      "stem": "直接推导“⇒”的长度为 1，广义推导“⇒*”的长度≥0。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "一步直接推导长度为 1，带 * 的广义推导允许 0 步或多步。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-113",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 113,
+      "originalNumber": 17,
+      "type": "判断题",
+      "score": 0,
+      "stem": "⇒+称为广义推导。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "带 + 的推导通常表示一步或多步推导，不是允许 0 步的广义推导。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-114",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 114,
+      "originalNumber": 18,
+      "type": "判断题",
+      "score": 0,
+      "stem": "一个语言的文法是唯一的。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "同一种语言可以由多个不同文法描述。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-115",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 115,
+      "originalNumber": 19,
+      "type": "判断题",
+      "score": 0,
+      "stem": "文法是规则的非空无穷集合。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "文法是规则的非空有穷集合；规则无限会使文法描述失去有限表示意义。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-116",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 116,
+      "originalNumber": 20,
+      "type": "判断题",
+      "score": 0,
+      "stem": "一个语言可以由多个文法来描述。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "同一个语言可由不同文法生成，文法不是语言的唯一表示。（原题标注：T）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-117",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 117,
+      "originalNumber": 21,
+      "type": "判断题",
+      "score": 0,
+      "stem": "由递归文法产生的语言集合一定是无限集合。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "只要存在递归产生式，就可以反复递归推导，通常可生成无限多个句子。（原题标注：T）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-118",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 118,
+      "originalNumber": 22,
+      "type": "判断题",
+      "score": 0,
+      "stem": "不包含递归规则的文法一定不是递归文法。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "递归文法要求规则中存在直接或间接递归；若完全没有递归规则，就不是递归文法。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-119",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 119,
+      "originalNumber": 23,
+      "type": "判断题",
+      "score": 0,
+      "stem": "文法G[S]:S→aCd，aC→Ba，C→aaC，B→b是上下文相关文法。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "该文法产生式不缩短串，且允许左部带上下文，符合上下文相关文法特征。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-120",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 120,
+      "originalNumber": 24,
+      "type": "判断题",
+      "score": 0,
+      "stem": "变量名就是标识符，标识符就是变量名。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "变量名属于标识符，但标识符还可表示函数名、类型名等。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-121",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 121,
+      "originalNumber": 25,
+      "type": "判断题",
+      "score": 0,
+      "stem": "若文法中有推导 A⇒+···A，称文法右递归。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "右递归指非终结符能推出右端仍以自身结尾的句型。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-122",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 122,
+      "originalNumber": 26,
+      "type": "判断题",
+      "score": 0,
+      "stem": "句子不是句型。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "句子是不含非终结符的句型，因此句子也是句型。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-123",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 123,
+      "originalNumber": 27,
+      "type": "判断题",
+      "score": 0,
+      "stem": "一个句型的最左直接短语称为该句型的句柄。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "句柄是句型的最左直接短语，是自底向上归约时优先寻找的对象。（原题标注：T）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-124",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 124,
+      "originalNumber": 28,
+      "type": "判断题",
+      "score": 0,
+      "stem": "句柄不是直接短语。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "句柄就是最左直接短语，当然属于直接短语。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-125",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 125,
+      "originalNumber": 29,
+      "type": "判断题",
+      "score": 0,
+      "stem": "一个句型的直接短语是唯一的。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "按原题标注为对；但常见教材认为直接短语可有多个，唯一强调的通常是句柄，即最左直接短语。（原题标注：T）",
+      "answerNotice": "说明：此题按原 PDF 标注保留为“对”。但按常见教材概念，一个句型可以有多个直接短语；唯一强调的通常是句柄，即最左直接短语。复习时建议记住这个区别。",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-126",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 126,
+      "originalNumber": 30,
+      "type": "判断题",
+      "score": 0,
+      "stem": "G[A]:A→A.A|a不是二义性文法。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "A→A.A|a 可对 a.a.a 产生不同结合方式，属于二义性文法。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-127",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 127,
+      "originalNumber": 31,
+      "type": "判断题",
+      "score": 0,
+      "stem": "如果一个文法是上下文无关文法，那么他一定不是上下文相关文法。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "上下文无关文法属于乔姆斯基 2 型；上下文相关文法是 1 型，二者分类层级不同。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-128",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 128,
+      "originalNumber": 32,
+      "type": "判断题",
+      "score": 0,
+      "stem": "在规则(产生式)中，符号→(::=)表示“取决于”。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "产生式符号 →/::= 表示“定义为/产生”，不是“取决于”。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-129",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 129,
+      "originalNumber": 33,
+      "type": "判断题",
+      "score": 0,
+      "stem": "正规文法所对应的自动机是图灵机。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "正规文法对应的是有限自动机，不是图灵机。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-130",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 130,
+      "originalNumber": 34,
+      "type": "判断题",
+      "score": 0,
+      "stem": "词法分析的任务是从左到右一个字符一个字符地读入源程序，对构成源程序的字符流进行扫描和分解，从而识别出一个个单词(也称单词符号或符号)。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "词法分析从左到右扫描字符流并识别单词符号。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-131",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 131,
+      "originalNumber": 35,
+      "type": "判断题",
+      "score": 0,
+      "stem": "词法分析的确定化算法，是为了消除NFA的ε-映射，多值映射和多个终态。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "NFA 确定化主要消除多值转移；ε-闭包另行处理，多个终态并不一定被消除。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-132",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 132,
+      "originalNumber": 36,
+      "type": "判断题",
+      "score": 0,
+      "stem": "正规式、正规文法和NFA之间可以互相转换。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "正规式、正规文法和有限自动机描述能力等价，可相互转换。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-133",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 133,
+      "originalNumber": 37,
+      "type": "判断题",
+      "score": 0,
+      "stem": "一张状态转换图只包含有限个状态，其中有一个被认为是初态，最多只有一个终态。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "状态转换图可有多个终态，不限于最多一个。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-134",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 134,
+      "originalNumber": 38,
+      "type": "判断题",
+      "score": 0,
+      "stem": "C语言中的标识符，允许小写字母或数字开头，后面跟随大小写字母。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "C 标识符不能以数字开头，通常由字母或下划线开头。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-135",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 135,
+      "originalNumber": 39,
+      "type": "判断题",
+      "score": 0,
+      "stem": "C语言中的标识符，允许大小写字母或数字开头，后面跟随大小写字母。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "C 标识符不能以数字开头。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-136",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 136,
+      "originalNumber": 40,
+      "type": "判断题",
+      "score": 0,
+      "stem": "正规(则)式的运算符“|”读作“闭包”。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "| 表示或运算，闭包是 *。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-137",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 137,
+      "originalNumber": 41,
+      "type": "判断题",
+      "score": 0,
+      "stem": "一个正规式只能对应一个确定的有限状态自动机。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "一个正规式可对应多个等价 DFA/NFA；最小化 DFA 在同构意义下才可看作唯一。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-138",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 138,
+      "originalNumber": 42,
+      "type": "判断题",
+      "score": 0,
+      "stem": "用l代表字母，d代表数字，∑={l，d}，则正则式r=dd*定义了无符号整数单词。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "dd* 表示一个或多个数字，可描述无符号整数单词。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-139",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 139,
+      "originalNumber": 43,
+      "type": "判断题",
+      "score": 0,
+      "stem": "用l代表字母，d代表数字，Σ={l，d}，则正规(则)式r=ld*代表了标识符。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "ld* 只允许首字母后跟数字，不能表示一般标识符 l(l|d)*。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-140",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 140,
+      "originalNumber": 44,
+      "type": "判断题",
+      "score": 0,
+      "stem": "用l代表字母，d代表数字，Σ={l，d}，则正规(则)式r=dd*代表了标识符。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "dd* 表示数字串，不是标识符。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-141",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 141,
+      "originalNumber": 45,
+      "type": "判断题",
+      "score": 0,
+      "stem": "C++、C#、Java等编程语言都是编译型编程语言。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "按课程常见分类，C++、C#、Java 都需要编译阶段，可归入编译型语言。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-142",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 142,
+      "originalNumber": 46,
+      "type": "判断题",
+      "score": 0,
+      "stem": "PHP、PYTHON和RUBY等脚本语言是弱类型编程语言，在这些语言中，变量不需预先定义声明，即可直接使用，不同类型的变量在参与运算时不必考虑变量类型，会自动转换变量类型。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "Python 和 Ruby 通常属于强动态类型语言，不应简单说成弱类型且任意自动转换。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-143",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 143,
+      "originalNumber": 47,
+      "type": "判断题",
+      "score": 0,
+      "stem": "右图的确定自动机DFA： 其正规(则)式为 10*1。 （ ）",
+      "images": [
+        "assets/questions/compiler-objective-judge-47.png"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "该 DFA 对应的正规式不是单独的 10*1，题干说法过窄。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-144",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 144,
+      "originalNumber": 48,
+      "type": "判断题",
+      "score": 0,
+      "stem": "LL(1)文法是语法分析中的自上而下分析法。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "LL(1) 属于自上而下语法分析方法。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-145",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 145,
+      "originalNumber": 49,
+      "type": "判断题",
+      "score": 0,
+      "stem": "LR(0)文法属于语法分析中的自上而下分析法。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "LR(0) 是自下而上分析方法。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-146",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 146,
+      "originalNumber": 50,
+      "type": "判断题",
+      "score": 0,
+      "stem": "SLR(1)文法是语法分析中的自上而下分析法。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "SLR(1) 是 LR 系列自下而上分析方法。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-147",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 147,
+      "originalNumber": 51,
+      "type": "判断题",
+      "score": 0,
+      "stem": "语法分析需要词法分析的输出作为输入。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "语法分析器以词法分析输出的单词符号串作为输入。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-148",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 148,
+      "originalNumber": 52,
+      "type": "判断题",
+      "score": 0,
+      "stem": "编译程序以词法分析为主干，通过词法分析调用语法分析。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "编译程序通常以语法分析为主干，由语法分析器调用词法分析器取单词。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-149",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 149,
+      "originalNumber": 53,
+      "type": "判断题",
+      "score": 0,
+      "stem": "并不是每个文法都能改写成LL(1)文法； （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "有些文法存在左递归、公共左因子或 FIRST/FOLLOW 冲突，不能改写为 LL(1)。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-150",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 150,
+      "originalNumber": 54,
+      "type": "判断题",
+      "score": 0,
+      "stem": "设有一个LR(0)项目集I={X→α·Bβ，A→α·]，该项目集含有“移进—归约”冲突。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "项目集中既有移进项目又有归约项目时，可能形成移进-归约冲突。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-151",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 151,
+      "originalNumber": 55,
+      "type": "判断题",
+      "score": 0,
+      "stem": "算符优先分析法最适合于分析算术表达式。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "算符优先分析法常用于表达式类语法分析。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-152",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 152,
+      "originalNumber": 56,
+      "type": "判断题",
+      "score": 0,
+      "stem": "利用算符优先分析法所构造的预测分析表，能够正确分析的句子，有可能不是文法所要求的句子。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "算符优先分析主要依据相邻终结符优先关系，可能接受超出原文法的句子。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-153",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 153,
+      "originalNumber": 57,
+      "type": "判断题",
+      "score": 0,
+      "stem": "利用算符优先分析法所构造的预测分析表，能够正确分析的句子，就是文法所要求的句子。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "算符优先分析能接受的句子不一定完全等于原文法语言。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-154",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 154,
+      "originalNumber": 58,
+      "type": "判断题",
+      "score": 0,
+      "stem": "自下而上语法制导翻译法的特点是语法分析栈与语义分析栈不需同步操作。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "自下而上语法制导翻译通常要求语法栈和语义栈同步维护。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-155",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 155,
+      "originalNumber": 59,
+      "type": "判断题",
+      "score": 0,
+      "stem": "逆波兰表达式ab+cd+*所代表的中缀形式的表达式是a+b*c+d。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "ab+cd+* 的中缀形式是 (a+b)*(c+d)。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-156",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 156,
+      "originalNumber": 60,
+      "type": "判断题",
+      "score": 0,
+      "stem": "逆波兰表达式ab+cd+*所代表的中缀形式的表达式是(a+b)*(c+d)。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "ab+cd+* 先算 a+b、c+d，再相乘。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-157",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 157,
+      "originalNumber": 61,
+      "type": "判断题",
+      "score": 0,
+      "stem": "逆波兰表达式ab+c*所代表的中缀形式的表达式是a+b*c。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "ab+c* 的中缀形式是 (a+b)*c。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-158",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 158,
+      "originalNumber": 62,
+      "type": "判断题",
+      "score": 0,
+      "stem": "中缀形式的表达式(a+b)*c+d所代表的逆波兰表达式是ab+cd+*。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "(a+b)*c+d 的逆波兰式应为 ab+c*d+。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-159",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 159,
+      "originalNumber": 63,
+      "type": "判断题",
+      "score": 0,
+      "stem": "对于任何一个编译程序来说，产生中间代码是不可缺少的一部分。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "简单编译器可以直接生成目标代码，中间代码不是绝对必需。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-160",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 160,
+      "originalNumber": 64,
+      "type": "判断题",
+      "score": 0,
+      "stem": "C语言中的局部变量，运行时在堆栈上分配临时空间。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "C 局部自动变量通常在栈帧中分配。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-161",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 161,
+      "originalNumber": 65,
+      "type": "判断题",
+      "score": 0,
+      "stem": "C语言中的全局变量，采用动态内存分配策略。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "C 全局变量通常采用静态存储分配，不是动态分配。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-162",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 162,
+      "originalNumber": 66,
+      "type": "判断题",
+      "score": 0,
+      "stem": "C语言中的参数，存放在数组上。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "C 语言参数一般保存在栈帧、寄存器或约定位置，不是存放在数组上。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-163",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 163,
+      "originalNumber": 67,
+      "type": "判断题",
+      "score": 0,
+      "stem": "符号表的建立和查找分为线性表、二分查找和二叉树、散列法。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "符号表查找可用线性表、折半查找、二叉树和散列法等结构。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-164",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 164,
+      "originalNumber": 68,
+      "type": "判断题",
+      "score": 0,
+      "stem": "提高代码质量的技术称为代码优化。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "代码优化的目标就是在保持语义等价下提高代码质量。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-165",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 165,
+      "originalNumber": 69,
+      "type": "判断题",
+      "score": 0,
+      "stem": "编译器根据优化对象涉及的程序范围，可分为窥孔优化、循环优化和全局优化。（ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "按范围常分为局部优化、循环优化和全局优化；窥孔优化不是这组三分法里的局部优化名称。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-166",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 166,
+      "originalNumber": 70,
+      "type": "判断题",
+      "score": 0,
+      "stem": "跳转语句是基本块的入口语句。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "跳转语句通常是基本块的出口；跳转目标语句才可能是入口。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-167",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 167,
+      "originalNumber": 71,
+      "type": "判断题",
+      "score": 0,
+      "stem": "基本块是指代码序列中一组顺序执行的语句序列。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "基本块内部按顺序执行，除入口外无跳入，除出口外无跳出。（原题标注：T）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-168",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 168,
+      "originalNumber": 72,
+      "type": "判断题",
+      "score": 0,
+      "stem": "基本块允许有多个入口和一个出口。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "基本块通常只有一个入口和一个出口；多个入口会破坏基本块定义。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-169",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 169,
+      "originalNumber": 73,
+      "type": "判断题",
+      "score": 0,
+      "stem": "所谓优化是指对代码进行等价变换，使得变换后的代码运行结果与变换前的运行结果一致，而运行速度加快或占用存储空间减少，或二者兼而有之(即提高代码质量)。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "优化要求保持语义等价，同时改善速度或空间。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-170",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 170,
+      "originalNumber": 74,
+      "type": "判断题",
+      "score": 0,
+      "stem": "代码外提是指将循环中的不变运算提到循环体前面，减少重复运算； （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "代码外提就是把循环不变计算移到循环外。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-171",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 171,
+      "originalNumber": 75,
+      "type": "判断题",
+      "score": 0,
+      "stem": "合并已知量是指尽量不引用那些在程序中仅仅只传播信息而不改变其值，也不影响其运行结果的变量； （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "该说法更接近复制传播/删除无用变量，不是“合并已知量”的准确表述。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-172",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 172,
+      "originalNumber": 76,
+      "type": "判断题",
+      "score": 0,
+      "stem": "编译器针对循环实施优化，能显著提高目标代码的执行效率。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "循环体执行次数多，循环优化往往能显著改善目标代码效率。（原题标注：T）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-173",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 173,
+      "originalNumber": 77,
+      "type": "判断题",
+      "score": 0,
+      "stem": "表达式a+b*(c-d)的四元式表示是： ①(-,c,d,T ) 1 ②(*,b,T ,T ) 1 2 ③(+,a,T ,T )。 （ ） 2 3",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "四元式先算 c-d，再乘 b，最后加 a，顺序正确。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-174",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 174,
+      "originalNumber": 78,
+      "type": "判断题",
+      "score": 0,
+      "stem": "表达式a-b/(c+d)的四元式表示是： ①(+,c,d,T ) 1 ②(/,b,T ,T ) 1 2 ③(-,a,T ,T )。 （ ） 2 3",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "四元式先算 c+d，再算 b/T1，最后 a-T2，顺序正确。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-175",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 175,
+      "originalNumber": 79,
+      "type": "判断题",
+      "score": 0,
+      "stem": "表达式(a+b)/(c-d)的三元式表示是： ①(+,a,b) ②(-,c,d) ③(/,①,②)。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "三元式用序号引用前面结果，给出的三元式正确表示 (a+b)/(c-d)。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-176",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 176,
+      "originalNumber": 80,
+      "type": "判断题",
+      "score": 0,
+      "stem": "数据空间的使用和管理方法分为：静态存储分配、栈式动态存储分配和堆式动态存储分配。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "运行时存储管理常分为静态、栈式动态和堆式动态分配。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-177",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 177,
+      "originalNumber": 81,
+      "type": "判断题",
+      "score": 0,
+      "stem": "编译器在编译时，存储空间通常被划分为：目标区，数据区和堆栈区。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "运行时存储通常划分为代码区、静态数据区、栈区和堆区等；“目标区、数据区和堆栈区”不完整。（原题标注：F）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-178",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 178,
+      "originalNumber": 82,
+      "type": "判断题",
+      "score": 0,
+      "stem": "目标代码所谓的运行时环境是指目标计算机的寄存器和存储器结构，以及用来管理存储器并保存执行过程所需要的信息。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "运行时环境包含寄存器、存储器组织以及活动记录、栈/堆等管理信息。（原题标注：T）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-179",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 179,
+      "originalNumber": 83,
+      "type": "判断题",
+      "score": 0,
+      "stem": "要设计一个好的代码生成器，不必了解和熟悉目标机器和它的指令系统。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "代码生成器必须熟悉目标机和指令系统。（原题标注：F）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-180",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 180,
+      "originalNumber": 84,
+      "type": "判断题",
+      "score": 0,
+      "stem": "代码生成器生成的目标代码，通常有以下三种形式：立即执行的机器代码；待装配的机器语言模块；汇编语言程序。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "目标代码常见形式包括可立即执行机器代码、可重定位机器语言模块和汇编语言程序。（原题标注：T）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-181",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 181,
+      "originalNumber": 85,
+      "type": "判断题",
+      "score": 0,
+      "stem": "现阶段代码生成器的自动生成器，主要采用由形式描述驱动的技术。 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "对",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "错",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "代码生成器自动生成常依赖形式化描述驱动技术。（原题标注：T）（补充答案：原 PDF 此题未单独标注 T/F，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-182",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 182,
+      "originalNumber": 1,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "编译程序是对 ( ) 程序进行翻译。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "高级语言",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "机器语言",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "自然语言",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "汇编语言",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "编译程序处理的是高级语言源程序。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-183",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 183,
+      "originalNumber": 2,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "编译程序是一种 （ ） 。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "汇编程序",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "翻译程序",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "解释程序",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "目标程序",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "编译程序把源程序翻译为目标程序，本质是一种翻译程序。（原题标注：B）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-184",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 184,
+      "originalNumber": 3,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "编译程序中语法分析器接收以 ( ) 为单位的输入。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "单词",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "表达式",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "产生式",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "句子",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "语法分析器接收词法分析输出的单词符号作为输入。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-185",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 185,
+      "originalNumber": 4,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "编译过程中，词法分析阶段的工作对象是 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "高级语言源代码",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "机器语言代码",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "自然语言文本",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "汇编语言源代码",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "词法分析直接扫描高级语言源代码字符流。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-186",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 186,
+      "originalNumber": 5,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "以下哪项是编译器在处理源代码时的主要任务 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "识别源代码中的语法结构",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "生成目标代码",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "优化目标代码",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "以上都是",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "编译器要完成词法/语法/语义处理、优化以及目标代码生成等多项工作。（原题标注：D）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-187",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 187,
+      "originalNumber": 6,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "从逻辑上划分，编译程序第三步工作是 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "代码生成",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "语义分析",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "语法分析",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "词法分析",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "典型流程是词法分析、语法分析、语义分析，所以第三步是语义分析。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-188",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 188,
+      "originalNumber": 7,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "通常一个编译程序中，不仅包含词法分析、语法分析、语义分析和中间代码生成，代码优化、目标代码生成等六个部分，还应包括 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "符号执行器",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "模拟执行器",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "解释器",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "表格处理和出错处理",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "编译器除核心分析/生成阶段外，还需要表格管理和出错处理。（原题标注：D）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-189",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 189,
+      "originalNumber": 8,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "编译程序中词法分析器的输出是二元组表示的单词符号，其二元组的两个元素是单词本身与 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "单词自身的值",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "单词参数",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "单词种别码",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "单词数量值",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "二元式通常包含单词种别码和属性值；此题选单词种别码。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-190",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 190,
+      "originalNumber": 9,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "将编译程序分成若干“遍”，是为了 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "利用有限的机器内存并提高机器的执行效率",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "提高程序执行效率",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "利用有限的机器内存，但降低了机器的执行效率",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "使程序的结构更为清晰",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "按原题口径选 D，强调多遍划分使编译器结构清晰；另有教材会强调多遍适应有限内存，但可能降低编译效率。（原题标注：D）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-191",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 191,
+      "originalNumber": 10,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "以下哪项是编译器在处理源代码时的的典型步骤 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "词法分析、语法分析、语义分析、代码生成",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "代码输入、词法分析、语法分析、代码生成",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "词法分析、语法分析、代码生成、调试",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "代码生成、优化、调试、编译",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "典型编译流程包括词法分析、语法分析、语义分析和代码生成，优化可穿插其中。（原题标注：A）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-192",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 192,
+      "originalNumber": 11,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "字母表中的元素可以是 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "字母",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "字母和数字",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "数字",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "字母、数字和其它符号",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "字母表元素可以是字母、数字或其他符号。（原题标注：D）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-193",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 193,
+      "originalNumber": 12,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "设有文法 G[E]：\nE→E+T | T\nT→T*F | F\nF→(E) | a\n该文法句子 a +(a *a ) 的句柄是下列符号串（ ）\n        1    2  3",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "a *a\n2  3",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "(a *a )\n 2  3",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "a +(a *a )\n1    2  3",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "自底向上分析该句子时，最先可归约的句柄是 a。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-194",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 194,
+      "originalNumber": 13,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "设有文法 G[E]：\nT→T*F | F\nF→F^P | P\nP→(T) | a\n该文法句型 T*P^(T*F) 的句柄是下列符号串（ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "T",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "P",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "T*F",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "P^(T*F)",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "句型中的 T*F 可由 T→T*F 归约，是该处句柄。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-195",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 195,
+      "originalNumber": 14,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "由文法的开始符号出发经过若干步(包括 0 步)推导产生的文法符号序列称为 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "语言",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "句型",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "句子",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "句柄",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "由开始符经若干步推导得到的文法符号串称为句型。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-196",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 196,
+      "originalNumber": 15,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "文法用来描述语言的语法结构，它由如下 4 个部分组成： ( ) 和文法开始符",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "文法终结符、文法非终结符集合、字母数字串",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "文法终结符、文法规则集合、文法非终结符集合、字母数字串",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "文法非终结符集合、字母数字串",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "以上都不是",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "文法四元组应为 VN、VT、P、S，给定选项均不完整或不准确。（原题标注：D）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-197",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 197,
+      "originalNumber": 16,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "乔姆斯基把文法分成 4 种类型，即 0 型、1 型、2 型和 3 型。1 型文法也称为 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "上下文相关文法",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "正规文法",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "上下文无关文法",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "无限制文法",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "1 型文法就是上下文相关文法。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-198",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 198,
+      "originalNumber": 17,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "一个句型最左边的（ ）称为该句型的句柄",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "短语",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "素短语",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "直接短语",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "句柄",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "句柄是句型的最左直接短语。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-199",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 199,
+      "originalNumber": 18,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "正则式的运算符“*”读作 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "或",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "连接",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "闭包",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "乘",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "正规式中的 * 表示 Kleene 闭包。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-200",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 200,
+      "originalNumber": 19,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "正规(则)式的运算符“*”读作 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "或",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "且",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "闭包",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "一个或多个字符",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "正规式中的 * 读作闭包。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-201",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 201,
+      "originalNumber": 20,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "用l代表字母，d代表数字，={l,d}，则定义标识符单词的正规式是 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "ld*",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "ll*",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "l(l|d)*",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "ll*|d*",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "标识符通常是字母开头，后接字母或数字，即 l(l|d)*。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-202",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 202,
+      "originalNumber": 21,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "文法A→Aa|b所代表的正则式为 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a*b",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "ba*",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "ab*",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "b*a",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "A→Aa|b 生成 b、ba、baa 等，即 ba*。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-203",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 203,
+      "originalNumber": 22,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "文法G[A]的规则如下：A→A1|A0|Aa|Ac|a|b|c,该文法的句子是 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "ab0",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "b0c01",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "aba",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "cb10",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "该文法先生成 a/b/c，再追加 1、0、a、c，b0c01 符合。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-204",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 204,
+      "originalNumber": 23,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "如果在推导过程中的任何一步α  ß，都是对α中的最右非终结符进行替换，则称这种推导为( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "直接推导",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "最右推导",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "最左推导",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "以上都不对",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "每步替换最右非终结符称为最右推导。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-205",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 205,
+      "originalNumber": 24,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "确定自动机DFA与非确定自动机NFA的区别不在于 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "初态与初态集",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "ε-映射",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "终态与终态集",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "单值映射与多值映射",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "DFA 和 NFA 都可有终态集合，区别不在终态/终态集。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "answerNotice": "老师解读：我上课时，重点提到，不止一次",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-206",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 206,
+      "originalNumber": 25,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "一个确定的有穷自动机DFA是一个 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "五元组(K，∑，f，S，Z)",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "四元组(V ，V ，P，S) NT",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "四元组(K，∑，f，S)",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "四元组(V ，V ，P) NT",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "DFA 通常定义为五元组 (K, Σ, f, S, Z)。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "answerNotice": "老师解读：看相关定义",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-207",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 207,
+      "originalNumber": 26,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "设有文法G[S]=({S，B}，{b}，{S→bB|b，B→bS}，S)，该文法所描述的语言是（ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "L(G[S])={b^n | n≥0}",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "L(G[S])={b^(2n) | n≥0}",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "L(G[S])={b^(2n+1) | n≥0}",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "L(G[S])={b^(2n+1) | n≥1}",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "该文法生成奇数个 b，且可生成 b，所以为 b^(2n+1), n≥0。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "answerNotice": "老师解读：使用逻辑推导的思维，观察文法特点，再来分析后面的对应字符串，哪个最准确。",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-208",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 208,
+      "originalNumber": 27,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "设有文法G[N]=({B，N}，{0，1}，{N→BN|ε，B→0|1 }，N)，该文法所描述的语言是 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "十进制整数",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "八进制整数",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "二进制整数",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "以上都不是",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "该文法生成 0/1 串，可看作二进制整数串。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-209",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 209,
+      "originalNumber": 28,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "正规(则)式a|b(0|1)*所代表的状态机为 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "S→aA | bA\nA→0A | 1A | ε",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "S→aA | bA\nA→aA | bA | ε",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "S→aA | bA\nA→0A | 1A",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "S→0A | 1A\nA→0A | 1A | ε",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "按原题选项口径，A 最接近 a 或 b 后接 0/1 串的自动机结构。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-210",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 210,
+      "originalNumber": 29,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "正规(则)式 1(1|0)*0 所代表的状态机为 （ ）",
+      "images": [
+        "assets/questions/compiler-objective-choice-29-options.png"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "见原图选项 A",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "见原图选项 B",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "见原图选项 C",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "见原图选项 D",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "从原图看，C 表示以 1 开头、中间任意 0/1、以 0 结束。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-211",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 211,
+      "originalNumber": 30,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "正规(则)式(ab*c)*所代表的状态机为 （ ）",
+      "images": [
+        "assets/questions/compiler-objective-choice-30-options.png"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "见原图选项 A",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "见原图选项 B",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "见原图选项 C",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "见原图选项 D",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "从原图看，B 允许 ε 并循环识别 a b* c，符合 (ab*c)*。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-212",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 212,
+      "originalNumber": 31,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "通常程序设计语言的词法规则可用正则式描述，词法分析器可用 ( ) 来实现。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "语法树",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "有穷自动机",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "堆",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "栈",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "词法规则可由正规式描述，并用有穷自动机实现。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "answerNotice": "老师解读：仔细阅读教材第三章，哪个是重点，并且与正则式等其它分析工具可以互相转换",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-213",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 213,
+      "originalNumber": 32,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "词法分析器的输出结果 ( )。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "单词自身值",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "单词在符号表中的位置",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "单词的种别码",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "单词的种别码和自身值",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "词法分析输出通常包含种别码和属性值。（原题标注：D）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-214",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 214,
+      "originalNumber": 33,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "通常程序设计语言的词法规则可用正则式描述，词法分析器可用 ( ) 来实现",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "DAG图",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "有穷自动机",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "堆栈",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "堆",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "词法分析器可由有穷自动机构造实现。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-215",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 215,
+      "originalNumber": 34,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "词法分析器不能 ( )。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "识别出数值常量",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "过滤源程序中的注释",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "扫描源程序并识别记号",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "发现括号不匹配",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "括号匹配属于语法结构问题，不是词法分析器主要职责。（原题标注：D）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-216",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 216,
+      "originalNumber": 35,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "一个句型中的 （ ）称为该句型的句柄。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "最左直接短语",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "最右直接短语",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "终结符",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "非终结符",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "句柄是最左直接短语。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-217",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 217,
+      "originalNumber": 36,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "在自底向上的语法分析方法中，分析的关键是 （ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "寻找句柄",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "寻找句型",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "消除递归",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "选择候选式",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "自底向上分析通过不断寻找句柄并归约来构造语法树。（原题标注：A）",
+      "answerNotice": "老师解读：仔细阅读并理解 LR 算法族的基本特点",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-218",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 218,
+      "originalNumber": 37,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "在自顶向下的语法分析方法中，分析的关键是 （ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "寻找句柄",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "寻找句型",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "消除递归",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "选择候选式",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "自顶向下分析要根据当前非终结符和输入符号选择合适候选式展开。（原题标注：D）",
+      "answerNotice": "老师解读：仔细阅读并理解 LL(1)算法的基本特点",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-219",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 219,
+      "originalNumber": 38,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "以下哪项属于编译原理中的语法分析方法 （ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "正则式匹配",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "递归下降解析",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "有限状态自动机",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "词法分析",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "递归下降分析属于自顶向下语法分析方法。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "answerNotice": "老师解读：有三项都是与词法分析相关的",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-220",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 220,
+      "originalNumber": 39,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "下列动作中，不是自下而上分析动作的是 （ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "移进",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "展开",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "规约",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "报错",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "自下而上分析的动作包括移进、规约和报错；展开是自顶向下分析动作。（原题标注：B）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-221",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 221,
+      "originalNumber": 40,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "下列动作中，不是自上而下分析动作的是 （ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "匹配",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "展开",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "规约",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "报错",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "自上而下分析主要进行匹配和展开；规约属于自下而上分析。（原题标注：C）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-222",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 222,
+      "originalNumber": 41,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "在语法分析处理中，FIRST集合、FOLLOW集合均是（ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "非终结符集合",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "终结符集合",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "字母表",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "状态集",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "FIRST 和 FOLLOW 集都是终结符集合。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-223",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 223,
+      "originalNumber": 42,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "在编译过程中，如果遇到错误应该 （ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "把错误理解成局部的错误",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "对错误在局部范围内进行纠正，继续向下分析",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "当发现错误时，跳过错误所在的语法单位继续分析下去",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "当发现错误时立即停止编译，待用户改正错误后再继续编译",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "错误恢复通常跳过出错的语法单位或同步到安全点，尽量继续分析以报告更多错误。（原题标注：C）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-224",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 224,
+      "originalNumber": 43,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "编译程序中语法分析常用的方法有（ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "自上而下分析法和自下而上分析法",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "自左向右分析法和自右向左分析法",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "自左向右分析法和自上而下分析法",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "以上都不是",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "语法分析常分为自上而下和自下而上两大类。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-225",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 225,
+      "originalNumber": 44,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "LR分析表中的转移表（GOTO）是以（ ）作为列标题的。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "终结符",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "非终结符",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "终结符或非终结符",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "表示状态的整型数",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "LR 分析表 GOTO 部分以非终结符为列。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "answerNotice": "老师解读：观察 LR 的预测分析表",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-226",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 226,
+      "originalNumber": 45,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "LR分析表中的动作表（ACTION）是以（ ）作为列标题的。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "终结符",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "非终结符",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "终结符或非终结符",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "终结符和结束符$",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "ACTION 表以终结符和输入结束符 $ 为列。（原题标注：D）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "answerNotice": "老师解读：观察 LR 的预测分析表",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-227",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 227,
+      "originalNumber": 46,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "若状态k含有项目“A→α· ”，且仅当输入符号a∈FOLLOW(A)时，才用规则“A →α”归约的语法分析方法是 （ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "LALR分析法",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "R(0)分析法",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "LR(1)分析法",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "SLR(1)分析法",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "SLR(1) 在含 A→α· 的项目中，依据 FOLLOW(A) 决定是否按 A→α 规约。（原题标注：D）",
+      "answerNotice": "老师解读：查看 SLR(1)的算法特点",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-228",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 228,
+      "originalNumber": 47,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "就文法的描述能力来说，有（ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "SLR(1) ⊂ LR(0)",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "LR(1) ⊂ LR(0)",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "SLR(1) ⊂ LR(1)",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "无二义文法 ⊂ LR(1)",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "SLR(1) 是 LR(1) 的子类，LR(1) 利用更精确的向前看符号，描述能力更强。（原题标注：C）",
+      "answerNotice": "老师解读：想想我上课讲解的那个 LR 语法族的嵌套图，最外面是 LALR(1)，最内侧是 LL(1)",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-229",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 229,
+      "originalNumber": 48,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "编译程序的语法分析器必须输出的信息是 （ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "语法规则信息",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "语法错误信息",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "语法分析过程",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "语句序列",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "语法分析器必须能报告语法错误；语法树或分析过程不一定作为外部输出。（原题标注：B）",
+      "answerNotice": "老师解读：可联想自己用过的一些 IDE...",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-230",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 230,
+      "originalNumber": 49,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "编译程序中语法分析常用的方法有 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "自左向右分析法和自右向左分析法",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "自上而下分析法与自下而上分析法",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "自上而下分析法与归约分析法",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "以上都不是",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "语法分析常用自上而下和自下而上两类方法。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-231",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 231,
+      "originalNumber": 50,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "编译程序中的语法分析器接受以（ ）为单位的输入，并产生有关信息供以后各阶段使用。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "字符",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "句子",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "句型",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "单词",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "语法分析器以单词符号为单位接收输入。（原题标注：D）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-232",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 232,
+      "originalNumber": 51,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "如果文法G是无二义性的，则它的任何句型/句子 （ ）。",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "可能存在两个不同的最左推导，但它们对应的语法树相同",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "最左推导和最右推导必定相同",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "最左推导和最右推导对应的语法树可能不同",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "最左推导和最右推导对应的语法树必定相同",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "无二义文法中，同一句子对应唯一语法树，因此最左和最右推导对应同一棵语法树。（原题标注：D）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-233",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 233,
+      "originalNumber": 52,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "数学表达式(a+b)*(c+d)的逆波兰表达式是 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a+bc*d+",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "ab+cd+*",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "+*+abcd",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "abcd+*+",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "(a+b)*(c+d) 的逆波兰式是 ab+cd+*。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-234",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 234,
+      "originalNumber": 53,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "数学表达式(a+b)*(c+d)的逆波兰表达式 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a+b*c+d",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "ab+*cd+",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "ab+cd*+",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "ab+cd+*",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "同一表达式的逆波兰式仍为 ab+cd+*。（原题标注：D）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-235",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 235,
+      "originalNumber": 54,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "数学表达式a*(b+c)的逆波兰表达式是 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a*bc+",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "abc+*",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "a*b+c",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "ab+c*",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "a*(b+c) 的逆波兰式是 abc+*。（原题标注：B）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-236",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 236,
+      "originalNumber": 55,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "数学表达式(a+b)*c的逆波兰表达式 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a+b*c",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "ab+*c",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "ab+c*",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "abc+*",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "(a+b)*c 的逆波兰式是 ab+c*。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-237",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 237,
+      "originalNumber": 56,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "数学表达式(a+b)*(x+y)的逆波兰表达式 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a+b*x+y",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "ab+*xy+",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "ab+xy+*",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "(ab+)*(xy+)",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "(a+b)*(x+y) 的逆波兰式是 ab+xy+*。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-238",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 238,
+      "originalNumber": 57,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "以下哪些不是常见的中间语言 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "逆波兰表达式",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "三元式",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "B树",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "四元式",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "B 树是索引/查找结构，不是常见中间语言。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-239",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 239,
+      "originalNumber": 58,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "下面哪些属于程序语言的语义定义 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "表达式中圆括号必须匹配",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "类的声明必须以class开头",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "关于函数调用时参数传递方法的描述",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "函数体必须用return语句结尾",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "参数传递方式属于语义规则；括号、class 开头和 return 位置更多属于语法形式约束。（原题标注：C）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-240",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 240,
+      "originalNumber": 59,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "以下哪一种查找方法没有用于符号表的查找 ( )",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "顺序(线性)查找",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "折半(两分)查找",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "Hash查找",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "排序查找",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "符号表常用顺序、折半、散列等查找；排序查找不是常见独立方法。（原题标注：D）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-241",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 241,
+      "originalNumber": 60,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "在编译中，动态存储分配的含义是 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "在运行阶段对源程序中的量进行存储分配",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "在编译阶段对源程序中的量进行存储分配",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "在说明阶段对源程序中的量进行存储分配",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "以上都不是",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "动态存储分配是在运行阶段为程序对象分配存储。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-242",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 242,
+      "originalNumber": 61,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "在目标代码生成阶段，符号表用于 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "语法检查",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "语义检查",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "目标代码生成",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "地址分配",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "目标代码生成阶段需借助符号表确定变量、临时量等对象的地址或存储位置。（原题标注：D）",
+      "answerNotice": "老师解读：不要被目标代码生成这个阶段吓唬住，仔细思考符号表的真正用途",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-243",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 243,
+      "originalNumber": 62,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "C语言函数的局部变量地址分配在 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "主程序数据区",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "堆",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "堆栈",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "所在函数的局部数据区",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "C 函数局部变量通常分配在堆栈中。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "answerNotice": "老师解读：在 C 语言生成汇编代码的讲解时，运行存储分配这一章，甚至语义分析及中间代码生成时，都提过这个东西",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-244",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 244,
+      "originalNumber": 63,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "运行阶段的存储组织与管理的目的是 （ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "优化运行空间的管理",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "为运行阶段的存储分配做准备及提升目标程序的性能和使用范围",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "节省内存空间",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "提高编译速度",
+          "images": []
+        }
+      ],
+      "answer": "B",
+      "answerImages": [],
+      "explanation": "运行时存储管理要为程序执行分配空间，并兼顾性能和可用范围。（原题标注：B）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-245",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 245,
+      "originalNumber": 64,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "局部优化是局限于一个（ ）范围内的一种优化",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "循环",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "函数",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "语句块",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "整个程序",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "局部优化通常限制在基本块范围内。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-246",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 246,
+      "originalNumber": 65,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "循环优化是指对 ( ) 中的代码进行优化",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "循环",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "函数",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "基本块",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "整个程序",
+          "images": []
+        }
+      ],
+      "answer": "A",
+      "answerImages": [],
+      "explanation": "循环优化就是针对循环中的代码进行优化。（原题标注：A）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-247",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 247,
+      "originalNumber": 66,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "在编译过程中，用于将源代码转换为目标代码的阶段是（ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "词法分析",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "语法分析",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "语义分析",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "代码生成",
+          "images": []
+        }
+      ],
+      "answer": "D",
+      "answerImages": [],
+      "explanation": "代码生成阶段把中间表示或源程序分析结果转换成目标代码。（原题标注：D）",
+      "explanationImages": [],
+      "hasAnswer": true
+    },
+    {
+      "id": "编译原理客观题-248",
+      "source": "编译原理题库v2.2.pdf",
+      "number": 248,
+      "originalNumber": 67,
+      "type": "单项选择题",
+      "score": 0,
+      "stem": "目标代码生成时应该着重考虑的基本问题有（ ）",
+      "images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "如何使生成的目标代码没有bug",
+          "images": []
+        },
+        {
+          "label": "B",
+          "text": "如何使目标程序运行所占用空间最小",
+          "images": []
+        },
+        {
+          "label": "C",
+          "text": "如何充分利用计算机寄存器，减少目标代码访问存储单元的次数",
+          "images": []
+        },
+        {
+          "label": "D",
+          "text": "目标程序运行的速度快",
+          "images": []
+        }
+      ],
+      "answer": "C",
+      "answerImages": [],
+      "explanation": "寄存器分配可减少访存次数，是目标代码生成的重要问题。（原题标注：C）（补充答案：原 PDF 此题未单独标注选项，已按编译原理知识点补齐。）",
+      "explanationImages": [],
+      "hasAnswer": true
+    }
+  ]
+}
