@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   color-scheme: light;
   --bg: #eef2f5;
   --surface: #ffffff;
@@ -775,7 +775,7 @@ button:disabled {
   margin: 10px 0 0;
   font-size: 25px;
   line-height: 1.55;
-  white-space: pre-line;
+  white-space: pre-wrap;
 }
 
 .teacher-badge {
@@ -799,7 +799,12 @@ button:disabled {
 }
 
 .stem-media {
+  grid-column: 1 / -1;
   margin-top: 14px;
+}
+
+.stem-media img {
+  width: min(100%, 960px);
 }
 
 .question-images {
@@ -819,6 +824,10 @@ button:disabled {
 
 .option-images {
   margin-top: 8px;
+}
+
+.question-images img {
+  width: min(100%, 960px);
 }
 
 .option-images img {

@@ -11356,7 +11356,7 @@
           "number": 46,
           "type": "单项选择题",
           "score": 0,
-          "stem": "设有关系R（A，B，C）的值如下： A B C 5 6 5 6 7 5 6 8 6 下列叙述正确的是（ ）",
+          "stem": "设有关系 R（A，B，C）的值如下：\n\n    A    B    C\n    5    6    5\n    6    7    5\n    6    8    6\n\n下列叙述正确的是（ ）",
           "images": [],
           "options": [
             {
@@ -12688,19 +12688,9 @@
           "number": 83,
           "type": "单项选择题",
           "score": 0,
-          "stem": "数据库技术的奠基人",
+          "stem": "数据库技术的奠基人 E. F. Codd 从 1970 年起发表过多篇论文，主要论述的是[ ]。",
           "images": [],
           "options": [
-            {
-              "label": "E",
-              "text": "",
-              "images": []
-            },
-            {
-              "label": "F",
-              "text": "Codd从1970年起发表过多篇论文，主要论述的是[ ]。",
-              "images": []
-            },
             {
               "label": "A",
               "text": "层次数据模型",
@@ -13022,8 +13012,10 @@
           "number": 92,
           "type": "单项选择题",
           "score": 0,
-          "stem": "如图所示，两个关系R1和R2，它们进行（ ）运算后得到R3。 R2 R1 D E M A B C 1 M I A 1 X 2 N J C 2 Y 5 M K D 1 y R3 A B C D E A 1 X M I D 1 Y M I C 2 y N J",
-          "images": [],
+          "stem": "如图所示，两个关系 R1 和 R2，它们进行（ ）运算后得到 R3。",
+          "images": [
+            "assets/questions/database-review-q92.png"
+          ],
           "options": [
             {
               "label": "A",
@@ -13166,7 +13158,7 @@
           "number": 96,
           "type": "单项选择题",
           "score": 0,
-          "stem": "若用如下的SQL语句创建一个student表： CREATE TABLE student (NO C(4) NOT NULL， NAME C(8) NOT NULL， SEX C(2)， AGE N(2)) 可以插入到student表中的是 （ ）。",
+          "stem": "若用如下的 SQL 语句创建一个 student 表：\n\nCREATE TABLE student\n(NO C(4) NOT NULL,\n NAME C(8) NOT NULL,\n SEX C(2),\n AGE N(2))\n\n可以插入到 student 表中的是（ ）。",
           "images": [],
           "options": [
             {
@@ -13186,7 +13178,7 @@
             },
             {
               "label": "D",
-              "text": "(‘1031’，NULL，‘男’，23) 第57到第60题基于这样的三个表即学生表S、课程表C和学生选课表SC，它们的结构如下： S(S#，SN，SEX，AGE，DEPT) C(C#，CN) SC(S#，C#，GRADE) 其中：S#为学号，SN 为姓名，SEX 为性别，AGE 为年龄，DEPT 为系别，C#为课程号，CN 为课程名，GRADE为成绩。",
+              "text": "(‘1031’，NULL，‘男’，23)",
               "images": []
             }
           ],
@@ -14426,8 +14418,10 @@
           "number": 131,
           "type": "单项选择题",
           "score": 0,
-          "stem": "下图所示的E-R图转换成关系模型，可以转换为（ ）关系模式。",
-          "images": [],
+          "stem": "下图所示的 E-R 图转换成关系模型，可以转换为（ ）关系模式。",
+          "images": [
+            "assets/questions/database-review-er-q131.png"
+          ],
           "options": [
             {
               "label": "A",
@@ -14446,7 +14440,7 @@
             },
             {
               "label": "D",
-              "text": "4个 借阅日期 位置 价格 借书人 m 借阅 n 图书 作者 借 书证号 姓名 单位 总编号 分类号 书名",
+              "text": "4个",
               "images": []
             }
           ],
