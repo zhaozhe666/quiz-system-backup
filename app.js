@@ -773,8 +773,8 @@ function renderQuestionCard(questions) {
       const button = document.createElement("button");
       button.type = "button";
       button.className = `question-chip ${questionCardStatus(question)} ${index === state.index ? "current" : ""}`;
-      button.textContent = groupIndex;
-      button.title = `${group.type}第 ${groupIndex} 题 · 原第 ${index + 1} 题`;
+      button.textContent = groupIndex + 1;
+      button.title = `${group.type}第 ${groupIndex + 1} 题 · 原第 ${index + 1} 题`;
       button.addEventListener("click", () => jumpByIndex(index));
       grid.appendChild(button);
     });
@@ -1101,4 +1101,5 @@ boot().catch((error) => {
   document.querySelector("#questionStem").textContent = "题库加载失败，请确认 data/question-banks.js 是否存在。";
   console.error(error);
 });
+
 
